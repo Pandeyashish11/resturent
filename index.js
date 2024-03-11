@@ -5,5 +5,9 @@ $(document).ready(function(){
       $(".listsMnav").slideToggle("slow");
     });
 
+    $("#s_icon").click(function(){
+      $("#my_input").slideToggle("slow");
+    });
+
   });
   
